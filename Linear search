@@ -1,0 +1,43 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int linear_search(int key, int n, int arr[])
+{
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] == key)
+        {
+            cout << "element found at index:" << i << endl;
+            return i;
+        }
+    }
+    return -1;
+}
+int main()
+{
+    int n;
+    cout << "enter the size of array:" << endl;
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+
+        arr[i] = (rand() % 100); // random array
+    }
+    cout << "random array:" << endl;
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+    int key;
+    cout << "enter the key to find in array:" << endl;
+    cin >> key;
+    if (result == -1)
+    {
+        cout << "element not found in the array.";
+    }
+
+    return 0;
