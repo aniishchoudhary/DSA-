@@ -3,6 +3,8 @@ Welcome to the DSA (Data Structures and Algorithms) repository! This repository 
 
 
 //LINEAR SEARCH 
+
+
 Linear search, also known as sequential search, is a simple and straightforward algorithm used to find a specific element in a list or array. It works by checking each element of the list one by one until the desired element is found or the list ends.
 
 How It Works
